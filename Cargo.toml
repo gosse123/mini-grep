@@ -3,6 +3,14 @@ name = "mini-grep"
 version = "0.1.0"
 edition = "2024"
 
+authors = ["Nahounou gosse <gossenahounou@gmail.com>"]
+description = "Un mini clone de grep en Rust avec support CLI"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/gosse123/mini-grep"
+keywords = ["cli", "grep", "search", "rust", "tool"]
+categories = ["command-line-utilities", "text-processing"]
+
 [dependencies]
 clap = { version = "4.0", features = ["derive"]}
 anyhow = "1.0"
