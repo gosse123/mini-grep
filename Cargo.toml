@@ -1,5 +1,5 @@
 [package]
-name = "mini-grep"
+name = "mini-grep_gosse"
 version = "0.1.0"
 edition = "2024"
 

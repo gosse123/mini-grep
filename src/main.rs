@@ -1,4 +1,4 @@
-use mini_grep::{cli_analyse, file_reader, find_matches};
+use mini_grep_gosse::{cli_analyse, file_reader, find_matches};
 
 fn main() {
     let (mots, chemin) = cli_analyse();
