@@ -1,4 +1,5 @@
-mod cli;
-use cli::cli_analyse;
+mod lib;
+use lib::cli_analyse;
 fn main() {
-    cli_analyse();}
+    cli_analyse();
+}
